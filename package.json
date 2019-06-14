@@ -1,0 +1,34 @@
+{
+  "name": "@smartive/prettier-config",
+  "version": "0.0.0-development",
+  "description": "Prettier configuration by smartive",
+  "main": "index.json",
+  "scripts": {
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smartive/prettier-config.git"
+  },
+  "keywords": [
+    "prettier"
+  ],
+  "author": "smartive AG <hello@smartive.ch>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smartive/prettier-config/issues"
+  },
+  "homepage": "https://github.com/smartive/prettier-config#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.1.0",
+    "semantic-release": "^15.13.16"
+  },
+  "peerDependencies": {
+    "prettier": "^1.15.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
