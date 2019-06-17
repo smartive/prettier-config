@@ -6,10 +6,6 @@ The following rules differ from Prettier's default configuration:
 
 Use single quotes instead of double quotes.
 
-### Quote Props (`quoteProps: consistent`)
-
-If at least one property in an object requires quotes, quote all properties.
-
 ### Print Width (`printWidth: 125`)
 
 The maximum line length got extended to 125 characters in order to match TypeScript's demand of
