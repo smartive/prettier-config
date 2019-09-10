@@ -1,21 +1,19 @@
-# Prettier configuration provided by smartive
+# @smartive/prettier-config
 
-The following rules differ from Prettier's default configuration:
+This package provides smartive's default [prettier](https://prettier.io/) configuration.
 
-### Quotes (`singleQuote: true`)
+## Installation
 
-Use single quotes instead of double quotes.
+```
+$ npm i prettier @smartive/prettier-config -D 
+```
 
-### Print Width (`printWidth: 125`)
+## Usage
 
-The maximum line length got extended to 125 characters in order to match TypeScript's demand of
-longer lines due to type declarations.
+Once the `@smartive/prettier-config` package is installed, you can use it by specifing `"@smartive/prettier-config"` in your [prettier configuration](https://prettier.io/docs/en/configuration.html).
 
-### Trailing Commas (`trailingComma: all`)
+```
+# .prettierrc
 
-Add trailing commas wherever possible. Please note that this requires node 8 or some sort of
-transformation.
-
-### End of Line (`endOfLine: lf`)
-
-Use Line Feed only.
+"@smartive/prettier-config"
+```
