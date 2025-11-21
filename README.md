@@ -5,7 +5,7 @@ This package provides smartive's default [prettier](https://prettier.io/) config
 ## Installation
 
 ```
-$ npm i prettier @smartive/prettier-config -D 
+npm i prettier @smartive/prettier-config -D 
 ```
 
 ## Usage
